@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "924096254812",
+    "firebase_url": "https://gewnt-helpmate.firebaseio.com",
+    "project_id": "gewnt-helpmate",
+    "storage_bucket": "gewnt-helpmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924096254812:android:e1fa1cd91e40362a",
+        "android_client_info": {
+          "package_name": "com.example.gwenthelpmate.gwenthelpmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924096254812-67989j1qu1420924qe548a6fah111300.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gwenthelpmate.gwenthelpmate",
+            "certificate_hash": "546f51abf32096c0eed3f0c017de4d8c28f5d954"
+          }
+        },
+        {
+          "client_id": "924096254812-la0bhi17r55ul2clb4qtmsf4b26dqnch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCQ8SopJTULfVMIG7mHC75YnG72YjqGb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924096254812-la0bhi17r55ul2clb4qtmsf4b26dqnch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924096254812:android:bc08c065b8a1c407",
+        "android_client_info": {
+          "package_name": "com.example.henry.gwenthelpmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924096254812-qoceu56206hhr1fcrjd7repts3nu1nqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.henry.gwenthelpmate",
+            "certificate_hash": "a65c34a85d9d67c2711954dabcecf5b3e61d028e"
+          }
+        },
+        {
+          "client_id": "924096254812-la0bhi17r55ul2clb4qtmsf4b26dqnch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCQ8SopJTULfVMIG7mHC75YnG72YjqGb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924096254812-la0bhi17r55ul2clb4qtmsf4b26dqnch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
