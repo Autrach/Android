@@ -21,6 +21,7 @@ class CardActivity : AppCompatActivity() {
         Row.setText(card.cardPosition)
         CardEffect.setText(card.cardEffects)
         FlavorText.setText(card.cardFlavorText)
+        cardNameText.setText(card.cardName)
         Picasso.with(this).load(card.cardURL).into(imageView)
     }
 }

@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.GridView
 import android.widget.Toast
-import com.example.henry.gwenthelpmate.GridAdapter
+import com.example.henry.gwenthelpmate.Adapters.GridAdapter
 import com.example.henry.gwenthelpmate.R
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
@@ -22,7 +22,7 @@ import java.io.InputStream
 class TabCard : Fragment() {
     public var listOfCards: ArrayList<GwentCard>?=null
     lateinit var gv: GridView
-    var adapter: GridAdapter ?= null
+    var adapter: GridAdapter?= null
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         var rootView: View = inflater!!.inflate(R.layout.card_tab, container, false)
         getFromFirebase()

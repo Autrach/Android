@@ -64,14 +64,4 @@
 
     </android.support.v7.widget.CardView>
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/cardView"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/cardView"
-        android:layout_marginLeft="31dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="37dp" />
-
 </RelativeLayout>

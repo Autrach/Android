@@ -3,7 +3,7 @@ package com.example.henry.gwenthelpmate.Containers
 import java.io.Serializable
 
 class GwentCard(var cardName: String, val cardGroup: String, val cardRarity: String, val cardPosition: String, val cardType: String,
-                val cardEffects: String, val cardFlavorText: String, val cardStrength: String, val cardURL: String, val cardFaction: String) :Serializable{
+                val cardEffects: String, val cardFlavorText: String, val cardStrength: String, val cardURL: String, val cardThumb: String, val cardFaction: String) :Serializable{
 
     /*
     var cardName: String? = null
