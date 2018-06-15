@@ -31,7 +31,7 @@ class StartActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         containerStart.adapter = mSectionsPagerAdapter
         containerStart.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabItems))
         tabItems.addOnTabSelectedListener(TabLayout.ViewPagerOnTabSelectedListener(containerStart))
-        fab.setOnClickListener { view ->
+        menu_item1.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action11", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
@@ -77,18 +77,6 @@ class StartActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
             }
             R.id.nav_register -> {
                 startActivity(Intent(this, RegisterActivity::class.java))
-            }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_manage -> {
-
-            }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
             }
         }
 
